@@ -1,0 +1,1 @@
+dir 'C:\ProgramData\Cloud Technology Solutions\Archives\' -Recurse | Where-Object { $_.Extension -eq ".zip" } | Compress-Archive -DestinationPath .\CM_Log_Export.zip
